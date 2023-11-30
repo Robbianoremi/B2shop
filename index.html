@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B2-Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+  </head>
+
+  <body>
+    <header>
+      <!-- nav bar right -->
+      <!-- pas oublier le fixed top -->
+        <nav class="navbar navbar-dark bg-dark "> 
+          <div class="container-fluid">
+            <img
+              src="./images/B2shop logo.jpg"
+              style="width: 100px;"
+              class="border border-light"
+              alt="Logo B2-Shop"/>
+            <a class="navbar-brand fs-4 fst-italic fw-bold" href="#">B2-SHOP</a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasDarkNavbar"
+              aria-controls="offcanvasDarkNavbar"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end text-bg-dark"
+              tabindex="-1"
+              id="offcanvasDarkNavbar"
+              aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                  Menu
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-secondary"
+                      aria-current="page"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-secondary"
+                      aria-current="page"
+                      href="#"
+                      >Sneakers</a
+                    >
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-secondary"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Montres
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Rolex</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Patek Philippe</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Audemars Piguet</a
+                        >
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider"/>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Promotion</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-secondary"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Street Wears
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Survêtement</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Shorts & T-Shirt</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Doudounes</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Accessoires</a>
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider"/>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Promotion</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-secondary"
+                      aria-current="page"
+                      href="#"
+                      >Sneakers</a
+                    >
+                  </li>
+
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search" />
+                  <button class="btn btn-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </nav>
+      <!-- end nav bar right -->
+
+    </header>
+
+
+    
+    <div class="selecteur-filtre">
+      <div class="selecteur-filtre-content">
+        <div class="container-fluid">
+          <div class="sloggan mx-auto  container d-flex flex-column align-items-center " >
+              <img src="./images/B2shop logo.jpg" class="rounded mx-auto d-block border border-dark mb-4"  alt="...">
+              <div class="container-fluid">
+                          
+                <h1 class="fs-1 fst-italic text-center mb-4">"B2-SHOP : Élevez Votre Style, Affirmez Votre Élégance."</h1>
+                <p class="apropos fs-5 fst-italic text-center ">Bienvenue chez B2 SHOP, votre destination exclusive pour des produits de marque prestigieuse et d'excellente qualité, alliant le style street wear à l'élégance intemporelle. Explorez notre collection soigneusement sélectionnée, où le street wear rencontre l'innovation. Découvrez le luxe abordable et l'élégance urbaine chez B2 SHOP, où chaque achat est une expérience exceptionnelle.</p>
+              </div>
+              <div class="button">
+                <button type="button" class="btn btn-secondary btn-lg btn btn-dark buttonproduits">Nos Produits</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <h2 class="h2 text-center p-5 fs-2 ">Découvrez nos produits</h2>
+      <div class="row mt-5">
+          <div class="col-lg-3">
+            <div class="box p-1">
+              <div class="card" >
+                  <img src="./images/baskets-air-max-plus-tn-baltic-blue-pour-homme-et-femme-disponible-sur-kikikickz-768135.webp"  class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Sneakers</h5>
+                    <p class="card-text">Step into style avec les sneakers de B2 SHOP. Un mélange unique de confort et d'audace pour une élégance sans effort à chaque pas.</p>
+                    <a href="#" class="btn btn-primary">Let's Go</a>
+                  </div>
+              </div> 
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="box p-1">
+              <div class="card card2" >
+                <img src="./images/m228239-0033_modelpage_laying_down_portrait.png"    class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Montres</h5>
+                  <p class="card-text">Parcourez le temps avec style grâce aux montres de B2 SHOP. Élégance instantanée, à chaque seconde.</p>
+                  <a href="#" class="btn btn-primary">Let's Go</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="box p-1">
+              <div class="card card3">
+                  <img src="./images/11053282_18965881.jpg"  class="card-img-top text-lg-center" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Accessoire</h5>
+                    <p class="card-text">Adoptez l'essence de la rue avec un Style urbain, attitude unique, c'est bien plus qu'un vêtement, c'est un état d'esprit.</p>
+                    <a href="#" class="btn btn-primary">Let's Go</a>
+                  </div>
+              </div>
+            </div>
+          </div> 
+
+              
+          <div class="col-lg-3 ">
+            <div class="box p-1">
+                <div class="card card4">
+                  <img src="./images/Perfume-Dior-Homme-Sport-De-Christian-Dior-Para-Hombre-100-ml.webp"  class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Parfums</h5>
+                    <p class="card-text">Captivez les sens avec les parfums B2 SHOP. L'essence de l'élégance en quelques notes.</p>
+                    <a href="#" class="btn btn-primary">Let's Go</a>
+                  </div>
+                </div> 
+            </div>
+          </div>  
+    </div> 
+    <div>
+      <hr class="dropdown-divider">
+    </div>
+  </div>
+
+  <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top ">
+    <div class="col-md-4 d-flex align-items-left text-white">
+      <ul>
+        <p>Contact</p>
+        <li><i class="fa-regular fa-envelope fa-1x" style="color: #ffffff;"></i> b2othershop@gmail.com</li>
+        <li><i class="fa-brands fa-whatsapp fa-1x" style="color: #ffffff;"></i> 07.84.65.95.68</li>
+        <li>
+      </ul>
+    
+    </div>
+      
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex  ">
+      <i class="fa-brands fa-square-facebook fa-shake fa-3x" style="color: #ffffff;"></i>
+      <i class="fa-brands fa-instagram fa-shake fa-3x" style="color: #ffffff;"></i>
+    </ul>
+  </footer>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

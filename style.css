@@ -1,0 +1,87 @@
+
+
+
+.selecteur-filtre {
+    /* Couleur de fond si désiré */
+      background-color :white;
+      position : relative;
+      
+    }
+    .selecteur-filtre-content:before{
+      content : "";
+      z-index : 1;
+      position : absolute;
+      top : 0; left : 0; right : 0; bottom : 0;
+      opacity : 0.1;
+      background: url(./images/concours-chaussures-sport-fond-abstrait-multicolore-genere-par-ia.jpg) fixed center no-repeat;
+
+       background-size: cover;
+       background-attachment: fixed;
+      
+    }
+    .selecteur-filtre-content{
+      position : relative;
+      z-index : 2;
+    }
+    .sloggan{
+        min-height:92vh;
+        position: relative;
+        top:120px;
+        
+       
+        }
+    .sloggan>img{
+      width:400px;
+    }
+    .card {
+      width: 290px;
+      height: 400px;
+      position: fixed;
+      
+    }
+    .buttonproduits {
+      margin-top: 50px;
+    }
+
+    .col-lg-3{
+      margin-top: 100px;
+    }
+
+    .card2>img {
+      width: 240px;
+      padding-top: 35px;
+    } 
+    .card3>img {
+      width: 250px;
+      padding-left: 35px;
+      padding-top: 30px;
+    }
+
+    .card4>img {
+      width: 240px;
+      padding-left: 35px;
+    }
+
+    
+
+    footer{
+      background-color: rgb(26, 22, 22);
+      
+      
+    }
+  
+  
+    .col>img {
+      width: 400px;
+      padding-right: 100px;
+    }
+
+    li {
+     list-style: none;
+    }
+
+    .nav>i {
+      padding-right: 30px;
+    }
+
+    
